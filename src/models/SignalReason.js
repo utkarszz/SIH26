@@ -12,7 +12,7 @@ const signalReasonSchema = new mongoose.Schema(
       type:String,
       required:true,
     },
-    previousvalue:{
+    previousValue:{
       type:Number,
       default:null,
     },
